@@ -4,7 +4,7 @@ class person:
     self.lname = lname
     
   def printname(self):
-    print(self.firstname, self.lastname)
+    print(self.fname, self.lname)
 
 class Student(person):
   def __init__(self, fname, lname, year):
