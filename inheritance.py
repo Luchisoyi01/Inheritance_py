@@ -12,7 +12,7 @@ class Student(person):
     self.graduationyear = year
 
   def welcome(self):
-    print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
+    print("Welcome", self.fname, self.lname, "to the class of", self.graduationyear)
 
 x = Student("watson", "Luchisoyi", 2025)
 x.welcome()
