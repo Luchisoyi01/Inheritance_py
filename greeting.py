@@ -1,3 +1,3 @@
-import mymodule
+import mymodule as salamu
 
-mymodule.greeting("Jonathan")
+salamu.greeting("Jonathan")
