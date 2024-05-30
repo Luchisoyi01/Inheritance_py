@@ -1,4 +1,4 @@
-price = float(input("Enter the buying price: "))
+price = int(input("Enter the buying price: "))
 discount = price * 0.20
 total = price - discount
 
