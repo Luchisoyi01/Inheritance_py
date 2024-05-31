@@ -1,1 +1,3 @@
-x = open("greeting.py")
+x = open("discount.py", "r")
+
+print(x.read()) 
