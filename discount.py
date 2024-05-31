@@ -6,7 +6,6 @@ elif price <= 1000:
 else:
   discount = price * 0.20
 
-#discount = price * 0.20
 total = price - discount
 
-print(f"The buying price is {price} and the total discount is {discount}. Therefore the buying price is: {total}")
+print(f"The buying price is {price} and the total discount is {discount:.1f}. Therefore the buying price is: {total:.1f}")
