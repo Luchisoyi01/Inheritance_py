@@ -8,4 +8,4 @@ plt.plot(xpoints, ypoints)
 plt.show()
 
 
-#if the x axis points are not defined it follows 0,1,2,3,4 ....etc
+#If we do not specify the points on the x-axis, they will get the default values 0, 1, 2, 3 etc., depending on the length of the y-points.
