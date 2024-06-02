@@ -5,3 +5,5 @@ ypoints = np.array([3, 8, 1, 10])
 
 plt.plot(ypoints, 'o:k')
 plt.show()
+
+#plt.plot(ypoints, linestyle = 'dotted')
