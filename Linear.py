@@ -10,7 +10,7 @@ def myfunc(x):
   return slope * x + intercept
 
 mymodel = list(map(myfunc, x))
-speed =myfunc(10)
+
 plt.scatter(x, y)
 plt.plot(x, mymodel)
 plt.show()
