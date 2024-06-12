@@ -7,6 +7,7 @@ y = numpy.std(speed) #getting the standard deviation
 
 print(x)
 print(y)
+print(numpy.mean(speed))
 
 #step 1 find mean
 '''
