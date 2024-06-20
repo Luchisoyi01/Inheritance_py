@@ -16,5 +16,9 @@ for choice in C:
   logit.set_params(C=choice)
   logit.fit(X, y)
   scores.append(logit.score(X, y))
+  
+  
+for x in scores:
+  print(x)
 
-print(scores)
+#print(scores)
